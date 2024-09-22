@@ -1,5 +1,6 @@
 package com.example.cc17_3f_aboutme
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -28,7 +29,10 @@ class MainActivity : AppCompatActivity() {
         val aboutMe1 = AboutMe(R.mipmap.ic_launcher,
             "Jerry Junior Pacalso",
             "Short Desc",
-            { /*TODO*/} )
+            { view ->
+                val intent = Intent(this, AboutJerryActivity::class.java)
+                startActivity(intent)
+            } )
 
         val aboutMe2 = AboutMe(R.mipmap.ic_launcher,
             "Jane Doe",
