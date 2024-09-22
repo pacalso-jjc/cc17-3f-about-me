@@ -45,7 +45,10 @@ class MainActivity : AppCompatActivity() {
         val johnSmith = AboutMe(R.drawable.john_smith_dp,
             "John Smith",
             "Explorer",
-            { /* TODO add onClickListener when show more button is clicked*/})
+            { view ->
+                val intent = Intent(this, AboutJohnSmithActivity::class.java)
+                startActivity(intent)
+            })
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith)
 
