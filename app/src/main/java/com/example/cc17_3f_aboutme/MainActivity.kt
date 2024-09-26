@@ -68,7 +68,10 @@ class MainActivity : AppCompatActivity() {
             "Arabella Siachongco",
             "Creative",
 
-        {/*todo later*/} )
+            { view ->
+                val intent = Intent(this, AboutSiachongcoActivity::class.java)
+                startActivity(intent)
+            })
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco)
 
