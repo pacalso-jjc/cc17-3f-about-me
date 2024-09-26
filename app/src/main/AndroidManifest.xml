@@ -31,6 +31,9 @@
             android:name=".AboutIsaacActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutDelenaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
