@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-
         val jLumague = AboutMe(R.drawable.nikka_dp,
             "Jeanikka Merjoy Lumague",
             "Artistic",
