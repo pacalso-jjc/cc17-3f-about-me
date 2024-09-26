@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
             "Occasional Mermaid",
 
             { view ->
-                val intent = Intent(this, AboutSecollesVanessaActivity::class.java)
+                val intent = Intent(this, AboutSecollesActivity::class.java)
                 startActivity(intent)
             })
 
