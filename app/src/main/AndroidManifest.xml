@@ -25,6 +25,15 @@
             android:name=".AboutKennethActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutAilaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutRivActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutKennethActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutKyraActivity"
             android:exported="false" />
         <activity
