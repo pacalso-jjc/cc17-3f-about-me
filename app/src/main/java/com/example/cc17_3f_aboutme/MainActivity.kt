@@ -140,8 +140,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
 
+        val simonKao = AboutMe(R.drawable.kaokao,
+            "Simon Adrian Aquino",
+            "Pight Me Woman",
+            { /*TODO*/})
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, paul)
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
