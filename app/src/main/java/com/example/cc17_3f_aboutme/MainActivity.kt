@@ -161,6 +161,8 @@ class MainActivity : AppCompatActivity() {
             })
 
 
+
+
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
             "Chill",
@@ -181,6 +183,8 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutJesterActivity::class.java)
                 startActivity(intent)
             } )
+
+
 
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
