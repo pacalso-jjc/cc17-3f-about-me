@@ -113,8 +113,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
+        val narvarte = AboutMe(R.drawable.ap,
+            "Angel Pearl Narvarte",
+            "Slayed",
+            {})
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo)
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, narvarte)
 
 
 
