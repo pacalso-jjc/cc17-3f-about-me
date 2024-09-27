@@ -168,8 +168,16 @@ class MainActivity : AppCompatActivity() {
             "Pight Me Woman",
             { /*TODO*/})
 
+        val joseLeif = AboutMe(R.drawable.leif,
+            "Jose Leif Hurei",
+            "Lep",
+            {view->
+                val intent = Intent(this, AboutJoseActivity:: class.java)
+                startActivity(intent)})
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, perez, simonKao, aquinoIvy, franzCastro, narvarte)
+
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, perez, simonKao, aquinoIvy, franzCastro, narvarte, joseLeif)
 
 
 
