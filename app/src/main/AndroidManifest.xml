@@ -16,6 +16,9 @@
             android:name=".model.AboutSimonAquinoActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutTristanActivity"
+            android:exported="false" />
+      <activity
             android:name=".AboutAngelActivity"
             android:exported="false" />
         <activity

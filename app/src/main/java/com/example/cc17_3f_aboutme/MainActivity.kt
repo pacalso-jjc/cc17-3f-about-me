@@ -132,7 +132,9 @@ class MainActivity : AppCompatActivity() {
         val ducusinTJ = AboutMe(R.drawable.tjd_profile,
             "Tristan Jan Ducusin",
             "Lethological",
-            {// In Progress
+            { view ->
+                val intent = Intent(this, AboutTristanActivity::class.java)
+                startActivity(intent)
             })
 
         val payumo = AboutMe(R.drawable.kebin_dawk,
