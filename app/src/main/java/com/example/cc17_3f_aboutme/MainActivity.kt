@@ -56,6 +56,15 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
+        val alvic = AboutMe(R.drawable.albik,
+            "Alvic Palongyas",
+            "Monke strong together",
+            { view ->
+                val intent = Intent(this, AboutIsaacActivity::class.java)
+                startActivity(intent)
+            })
+
+
         val paul = AboutMe(R.drawable.izme,
             "Paul Valera",
             "Painfully Average",
@@ -131,6 +140,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
+
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
             "Chill",
@@ -153,7 +163,11 @@ class MainActivity : AppCompatActivity() {
             } )
 
 
-     
+        val franzCastro = AboutMe(R.drawable.castro__2_,
+            name = "Franz Dominic Castro",
+            desc = "Risk Taker",
+            { /*TODO add onClickListener when show more button is clicked*/})
+
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
             desc = "Risk Taker",
@@ -171,6 +185,7 @@ class MainActivity : AppCompatActivity() {
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, perez, simonKao, aquinoIvy, franzCastro, narvarte)
 
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, alvic)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
