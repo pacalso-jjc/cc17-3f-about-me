@@ -57,9 +57,9 @@ class MainActivity : AppCompatActivity() {
             })
 
         val paul = AboutMe(R.drawable.izme,
-            "Paul Valera",
+            "Paul Zadok Valera",
             "Painfully Average",
-            {/*TODO add onclicklistener when show more button is clicked*/})
+            {/*TODO*/ })
 
 
         val jLumague = AboutMe(R.drawable.nikka_dp,
@@ -126,6 +126,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutRivActivity::class.java)
                 startActivity(intent)
             })
+
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
