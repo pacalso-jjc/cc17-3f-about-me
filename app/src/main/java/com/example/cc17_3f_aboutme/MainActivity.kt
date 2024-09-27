@@ -142,7 +142,7 @@ class MainActivity : AppCompatActivity() {
 
         val simonKao = AboutMe(R.drawable.kaokao,
             "Simon Adrian Aquino",
-            "Pight Me Woman",
+            "Pight Me",
             { /*TODO*/})
 
 
