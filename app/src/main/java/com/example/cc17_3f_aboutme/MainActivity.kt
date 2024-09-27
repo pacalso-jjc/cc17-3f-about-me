@@ -128,42 +128,10 @@ class MainActivity : AppCompatActivity() {
             })
 
 
-        val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
-            "Aila Marie Nieva",
-            "Chill",
-            {view -> val intent = Intent(this, AboutAilaActivity::class.java)
-                startActivity(intent)
-            })
-
-        val sobrepenatid = AboutMe(R.drawable.sobrepenatid,
-            "Trina Ilyza Sobrepeña",
-            "Hot Dancer",
-            { /*view ->
-            val intent = Intent(this, AboutKyraActivity::class.java)
-            startActivity((intent)*/})
-            { view ->
-            val intent = Intent(this, AboutKennethActivity::class.java)
-            startActivity(intent)})
-
-        val payumo = AboutMe(R.drawable.kebin_dawk,
-            "Kevin Payumo",
-            "Autistic",
-            { view ->
-                val intent = Intent(this, AboutKevinActivity::class.java)
-                startActivity(intent)
-            } )
-
         val narvarte = AboutMe(R.drawable.ap,
             "Angel Pearl Narvarte",
             "Slayed",
             {/*TODO*/})
-        val garduque = AboutMe(R.drawable.rib,
-            "Riv Andrei Garduque",
-            "REEEEEEEEEEEE",
-            { view ->
-                val intent = Intent(this, AboutRivActivity::class.java)
-                startActivity(intent)
-            })
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
