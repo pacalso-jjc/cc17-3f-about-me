@@ -108,12 +108,9 @@ class MainActivity : AppCompatActivity() {
         val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
             "Ivy Noreen Aquino",
             "Joyful",
-
             { /* TODO add onclicklistener when button is clicked */ })
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, aquinoIvy)
-
-
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }
