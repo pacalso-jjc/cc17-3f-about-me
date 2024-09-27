@@ -1,11 +1,10 @@
-package com.example.cc17_3f_aboutme.model
+package com.example.cc17_3f_aboutme
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.cc17_3f_aboutme.R
 
 class AboutSimonAquinoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
