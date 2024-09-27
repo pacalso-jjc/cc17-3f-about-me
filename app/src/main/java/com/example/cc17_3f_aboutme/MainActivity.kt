@@ -57,8 +57,8 @@ class MainActivity : AppCompatActivity() {
             })
 
         val paul = AboutMe(R.drawable.izme,
-            name = "Paul Valera",
-            desc = "Painfully Average",
+            "Paul Valera",
+            "Painfully Average",
             {/*TODO add onclicklistener when show more button is clicked*/})
 
 
