@@ -93,9 +93,10 @@ class MainActivity : AppCompatActivity() {
         val PastorKJ = AboutMe(R.drawable.kyra_wip060_1,
             "Kyra Joey Pastor",
             "Artist",
-         { /*view ->
+         { view ->
             val intent = Intent(this, AboutKyraActivity::class.java)
-            startActivity((intent)*/})
+            startActivity(intent)
+         })
 
 
 
