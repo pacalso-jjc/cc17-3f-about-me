@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity() {
 
         val simonKao = AboutMe(R.drawable.kaokao,
             "Simon Adrian Aquino",
-            "Pight Me",
+            "Pight Me ",
             { view ->
                 val intent = Intent(this, AboutSimonAquinoActivity::class.java)
                 startActivity(intent)
