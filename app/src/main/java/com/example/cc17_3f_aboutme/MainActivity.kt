@@ -113,10 +113,21 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
+        val jeremiah = AboutMe(R.drawable.jpfp,
+            "Jeremiah Gomez",
+            "Avid Gacha Enjoyer",
+            { view ->
+                val intent = Intent(this, AboutJeremiahActivity::class.java)
+                startActivity(intent)
+            } )
+
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
             "REEEEEEEEEEEE",
-            { /* TODO add onClickListener when show more button is clicked */})
+            { view ->
+                val intent = Intent(this, AboutRivActivity::class.java)
+                startActivity(intent)
+            })
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
@@ -133,7 +144,7 @@ class MainActivity : AppCompatActivity() {
             })
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, jeremiah)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)

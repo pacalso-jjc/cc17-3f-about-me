@@ -2,7 +2,14 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
+<<<<<<< HEAD
+      <SelectionState runConfigName="AboutJeremiahActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="app">
+=======
       <SelectionState runConfigName="MainActivity">
+>>>>>>> 0bbfdd748ed0875ffd9d506d8425d0af29523f30
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
