@@ -13,6 +13,12 @@
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
         <activity
+            android:name=".AboutKennethActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutKyraActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutSecollesActivity"
             android:exported="false" />
         <activity
@@ -32,6 +38,9 @@
             android:exported="false" />
         <activity
             android:name=".AboutIsaacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutKevinActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

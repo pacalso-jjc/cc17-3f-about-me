@@ -93,17 +93,25 @@ class MainActivity : AppCompatActivity() {
         val PastorKJ = AboutMe(R.drawable.kyra_wip060_1,
             "Kyra Joey Pastor",
             "Artist",
-         { /*view ->
+         { view ->
             val intent = Intent(this, AboutKyraActivity::class.java)
-            startActivity((intent)*/})
+            startActivity(intent)
+         })
 
         val ramos = AboutMe(R.drawable.ken_selfie,
             "Kenneth Joshua Ramos",
             "Goddess of Beauty",
-            { /*view ->
-            val intent = Intent(this, AboutKyraActivity::class.java)
-            startActivity((intent)*/})
+            { view ->
+            val intent = Intent(this, AboutKennethActivity::class.java)
+            startActivity(intent)})
 
+        val payumo = AboutMe(R.drawable.kebin_dawk,
+            "Kevin Payumo",
+            "Autistic",
+            { view ->
+                val intent = Intent(this, AboutKevinActivity::class.java)
+                startActivity(intent)
+            } )
 
 
 
@@ -125,6 +133,8 @@ class MainActivity : AppCompatActivity() {
             startActivity((intent)*/})
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, sobrepenatid)
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo)
 
 
 
