@@ -107,6 +107,7 @@ class MainActivity : AppCompatActivity() {
         val sobrepenatid = AboutMe(R.drawable.sobrepenatid,
             "Trina Ilyza Sobrepeña",
             "Hot Dancer",
+
             { /*view ->
             val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
