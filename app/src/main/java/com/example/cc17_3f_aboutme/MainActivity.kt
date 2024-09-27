@@ -66,9 +66,9 @@ class MainActivity : AppCompatActivity() {
 
 
         val paul = AboutMe(R.drawable.izme,
-            "Paul Valera",
+            "Paul Zadok Valera",
             "Painfully Average",
-            {/*TODO add onclicklistener when show more button is clicked*/})
+            {/*TODO*/ })
 
 
         val jLumague = AboutMe(R.drawable.nikka_dp,
@@ -131,7 +131,11 @@ class MainActivity : AppCompatActivity() {
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
             "REEEEEEEEEEEE",
-            { /* TODO add onClickListener when show more button is clicked */})
+            { view ->
+                val intent = Intent(this, AboutRivActivity::class.java)
+                startActivity(intent)
+            })
+
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
@@ -146,8 +150,18 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
 
+        val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
+            "Ivy Noreen Aquino",
+            "Joyful",
+            { /* TODO add onclicklistener when button is clicked */})
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, alvic)
+        val simonKao = AboutMe(R.drawable.kaokao,
+            "Simon Adrian Aquino",
+            "Pight Me Woman",
+            { /*TODO*/})
+
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, alvic)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
