@@ -124,9 +124,14 @@ class MainActivity : AppCompatActivity() {
             {/*TODO*/
             })
 
+        val bitog = AboutMe(R.drawable.bitog_dp,
+            "Rose Kyla Bitog",
+            "Patatas",
+            {/*TODO add onClickListener when show more button is clicked */})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva)
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, bitog)
 
 
 
