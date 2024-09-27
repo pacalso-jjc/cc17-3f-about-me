@@ -116,7 +116,10 @@ class MainActivity : AppCompatActivity() {
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
             "REEEEEEEEEEEE",
-            { /* TODO add onClickListener when show more button is clicked */})
+            { view ->
+                val intent = Intent(this, AboutRivActivity::class.java)
+                startActivity(intent)
+            })
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
