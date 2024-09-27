@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
         <activity
+            android:name=".AboutRavaraActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutSecollesActivity"
             android:exported="false" />
         <activity
