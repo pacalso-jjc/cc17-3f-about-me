@@ -137,15 +137,14 @@ class MainActivity : AppCompatActivity() {
         val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
             "Ivy Noreen Aquino",
             "Joyful",
-            { /* TODO add onclicklistener when button is clicked */ })
+            { /* TODO add onclicklistener when button is clicked */})
         val simonKao = AboutMe(R.drawable.kaokao,
             "Simon Adrian Aquino",
             "Pight Me Woman",
             { /*TODO*/})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, aquinoIvy)
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
