@@ -119,6 +119,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
+        val narvarte = AboutMe(R.drawable.ap,
+            "Angel Pearl Narvarte",
+            "Slayed",
+            {/*TODO*/})
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
             "REEEEEEEEEEEE",
@@ -139,7 +143,6 @@ class MainActivity : AppCompatActivity() {
             { /*view ->
             val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
-
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
             desc = "Risk Taker",
@@ -155,7 +158,7 @@ class MainActivity : AppCompatActivity() {
             { /*TODO*/})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, narvarte)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
