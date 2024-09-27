@@ -184,8 +184,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
-
-
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
             desc = "Risk Taker",

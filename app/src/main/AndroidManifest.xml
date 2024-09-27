@@ -38,10 +38,12 @@
             android:exported="false" />
         <activity
             android:name=".AboutRivActivity"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".AboutKennethActivity"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".AboutKyraActivity"
             android:exported="false" />
