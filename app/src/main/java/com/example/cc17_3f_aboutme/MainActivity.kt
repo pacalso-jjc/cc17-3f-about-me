@@ -56,6 +56,12 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
+        val paul = AboutMe(R.drawable.izme,
+            "Paul Zadok Valera",
+            "Painfully Average",
+            {/*TODO*/ })
+
+
         val jLumague = AboutMe(R.drawable.nikka_dp,
             "Jeanikka Merjoy Lumague",
             "Artistic",
@@ -120,6 +126,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutRivActivity::class.java)
                 startActivity(intent)
             })
+
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
             "Aila Marie Nieva",
