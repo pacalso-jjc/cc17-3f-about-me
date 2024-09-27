@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
         val narvarte = AboutMe(R.drawable.ap,
             "Angel Pearl Narvarte",
             "Slayed",
-            {})
+            {/*TODO*/})
 
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, narvarte)
