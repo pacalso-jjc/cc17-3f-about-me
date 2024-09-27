@@ -101,16 +101,52 @@ class MainActivity : AppCompatActivity() {
         val ramos = AboutMe(R.drawable.ken_selfie,
             "Kenneth Joshua Ramos",
             "Goddess of Beauty",
+            { view ->
+            val intent = Intent(this, AboutKennethActivity::class.java)
+            startActivity(intent)})
+
+        val payumo = AboutMe(R.drawable.kebin_dawk,
+            "Kevin Payumo",
+            "Autistic",
+            { view ->
+                val intent = Intent(this, AboutKevinActivity::class.java)
+                startActivity(intent)
+            } )
+
+        val garduque = AboutMe(R.drawable.rib,
+            "Riv Andrei Garduque",
+            "REEEEEEEEEEEE",
+            { view ->
+                val intent = Intent(this, AboutRivActivity::class.java)
+                startActivity(intent)
+            })
+
+        val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
+            "Aila Marie Nieva",
+            "Chill",
+            {/*TODO*/
+            })
+
+        val sobrepenatid = AboutMe(R.drawable.sobrepenatid,
+            "Trina Ilyza Sobrepeña",
+            "Hot Dancer",
             { /*view ->
-            val intent = Intent(this, AboutKyraActivity::class.java)
+            val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
 
         val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
             "Ivy Noreen Aquino",
             "Joyful",
             { /* TODO add onclicklistener when button is clicked */ })
+        val simonKao = AboutMe(R.drawable.kaokao,
+            "Simon Adrian Aquino",
+            "Pight Me Woman",
+            { /*TODO*/})
+
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, aquinoIvy)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao)
+
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }
