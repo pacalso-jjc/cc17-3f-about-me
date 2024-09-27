@@ -113,8 +113,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
+        val ducusinTJ = AboutMe(R.drawable.tjd_profile,
+            "Tristan Jan Ducusin",
+            "Lethological",
+            {// In Progress
+            })
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, ducusinTJ)
 
 
 
