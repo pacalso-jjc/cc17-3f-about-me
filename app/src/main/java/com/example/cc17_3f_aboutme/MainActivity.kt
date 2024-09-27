@@ -101,9 +101,9 @@ class MainActivity : AppCompatActivity() {
         val ramos = AboutMe(R.drawable.ken_selfie,
             "Kenneth Joshua Ramos",
             "Goddess of Beauty",
-            { /*view ->
-            val intent = Intent(this, AboutKyraActivity::class.java)
-            startActivity((intent)*/})
+            { view ->
+            val intent = Intent(this, AboutKennethActivity::class.java)
+            startActivity(intent)})
 
         val payumo = AboutMe(R.drawable.kebin_dawk,
             "Kevin Payumo",
