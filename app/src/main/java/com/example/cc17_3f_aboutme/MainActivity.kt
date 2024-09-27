@@ -150,7 +150,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-            {/*TODO*/})
 
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
