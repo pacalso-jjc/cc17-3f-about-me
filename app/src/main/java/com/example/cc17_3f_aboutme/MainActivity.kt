@@ -104,8 +104,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AboutKyraActivity::class.java)
             startActivity((intent)*/})
 
+        val sobrepenatid = AboutMe(R.drawable.sobrepenatid,
+            "Trina Ilyza Sobrepeña",
+            "Artist",
+            { /*view ->
+            val intent = Intent(this, AboutTrinaActivity::class.java)
+            startActivity((intent)*/})
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, sobrepenatid)
 
 
 
