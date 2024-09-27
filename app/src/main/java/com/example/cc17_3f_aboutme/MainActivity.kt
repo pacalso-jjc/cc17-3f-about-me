@@ -118,8 +118,18 @@ class MainActivity : AppCompatActivity() {
             "REEEEEEEEEEEE",
             { /* TODO add onClickListener when show more button is clicked */})
 
+        val ethan = AboutMe(R.drawable.ethan,
+            "Ethan Gabriel",
+            "Astronaut Kneel Im strong",
+            {view ->
+                val intent = Intent(this, AboutEthanActivity::class.java)
+                startActivity(intent)
+            }
+        )
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque)
+
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ethan)
 
 
 
