@@ -90,7 +90,16 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles)
+        val PastorKJ = AboutMe(R.drawable.kyra_wip060_1,
+            "Kyra Joey Pastor",
+            "Artist",
+         { /*view ->
+            val intent = Intent(this, AboutKyraActivity::class.java)
+            startActivity((intent)*/})
+
+
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ)
 
 
 
