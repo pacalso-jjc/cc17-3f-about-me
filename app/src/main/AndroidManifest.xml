@@ -13,6 +13,24 @@
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
         <activity
+            android:name=".AboutTristanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutSimonAquinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutIvyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".model.AboutyIvyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutAngelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutAliaActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutJoseActivity"
             android:exported="false" />
         <activity
