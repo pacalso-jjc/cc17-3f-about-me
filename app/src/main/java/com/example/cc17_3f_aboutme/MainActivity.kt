@@ -130,9 +130,16 @@ class MainActivity : AppCompatActivity() {
             { /*view ->
             val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
+        val perez = AboutMe(R.drawable.jes,
+            "Jester Perez",
+            "Car Guy",
+            { view ->
+                val intent = Intent(this, AboutJesterActivity::class.java)
+                startActivity(intent)
+            } )
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, perez)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
