@@ -16,6 +16,12 @@
             android:name=".AboutJesterActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutTrinaIlyza"
+            android:exported="false" />
+        <activity
+            android:name=".AboutRivActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutKennethActivity"
             android:exported="false" />
         <activity
@@ -44,6 +50,9 @@
             android:exported="false" />
         <activity
             android:name=".AboutKevinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutJeremiahActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
