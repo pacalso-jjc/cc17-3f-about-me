@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".model.AboutSimonAquinoActivity"
+    tools:ignore="ExtraText"
+    android:background="@drawable/cherry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|center"
+        android:background="#E6896B">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Simon Aquino"
+            android:textSize="60dp"
+            android:textColor="#F9DCC5"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pight Me"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:textColor="#F9DCC5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:text="He's a whirlwind of laughter and sunshine, always up for an adventure."
+            android:textColor="#F9DCC5"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="327dp"
+        android:layout_height="525dp"
+        android:layout_gravity="top|center"
+        app:srcCompat="@drawable/kaokao" />
+
+
+</FrameLayout>
