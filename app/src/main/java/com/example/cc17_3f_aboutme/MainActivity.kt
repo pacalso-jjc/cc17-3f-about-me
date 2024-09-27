@@ -118,8 +118,15 @@ class MainActivity : AppCompatActivity() {
             "REEEEEEEEEEEE",
             { /* TODO add onClickListener when show more button is clicked */})
 
+        val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
+            "Aila Marie Nieva",
+            "Chill",
+            {/*TODO*/
+            })
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque)
+
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva)
 
 
 
