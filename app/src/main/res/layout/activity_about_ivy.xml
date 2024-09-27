@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutIvyActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="244dp"
+        android:layout_height="383dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/white"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:src="@drawable/aquino_ivy_dp"></ImageView>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:text="Ivy Noreen Aquino"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:gravity="center"
+        android:text="Joyful"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <FrameLayout
+        android:layout_width="321dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="32dp"
+        android:background="#E5F3FD"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="283dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center"
+            android:text="Trying to get it together but there's much to appreciate in our everyday lives, even the little things. :)"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="italic"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
