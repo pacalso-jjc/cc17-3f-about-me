@@ -119,6 +119,13 @@ class MainActivity : AppCompatActivity() {
             { view ->
             val intent = Intent(this, AboutKennethActivity::class.java)
             startActivity(intent)})
+        val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
+            "Ivy Noreen Aquino",
+            "Joyful",
+            { view ->
+                val intent = Intent(this, AboutIvyActivity::class.java)
+                startActivity(intent)
+            })
 
         val payumo = AboutMe(R.drawable.kebin_dawk,
             "Kevin Payumo",
@@ -163,19 +170,11 @@ class MainActivity : AppCompatActivity() {
             } )
 
 
-        val franzCastro = AboutMe(R.drawable.castro__2_,
-            name = "Franz Dominic Castro",
-            desc = "Risk Taker",
-            { /*TODO add onClickListener when show more button is clicked*/})
 
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
             desc = "Risk Taker",
             { /*TODO add onClickListener when show more button is clicked*/})
-        val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
-            "Ivy Noreen Aquino",
-            "Joyful",
-            { /* TODO add onclicklistener when button is clicked */})
 
         val simonKao = AboutMe(R.drawable.kaokao,
             "Simon Adrian Aquino",
@@ -183,9 +182,7 @@ class MainActivity : AppCompatActivity() {
             { /*TODO*/})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, perez, simonKao, aquinoIvy, franzCastro, narvarte)
-
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, alvic)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, alvic, narvarte)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
