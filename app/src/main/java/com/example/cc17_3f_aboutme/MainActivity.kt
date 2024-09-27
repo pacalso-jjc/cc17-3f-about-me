@@ -198,7 +198,15 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, ducusinTJ, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, alvic, narvarte)
+        val joseLeif = AboutMe(R.drawable.leif,
+            "Jose Leif Hurei",
+            "Constipated",
+            {view->
+                val intent = Intent(this, AboutJoseActivity:: class.java)
+                startActivity(intent)
+            })
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, ducusinTJ, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, alvic, narvarte, joseLeif)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
