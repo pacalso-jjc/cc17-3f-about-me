@@ -97,17 +97,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AboutKyraActivity::class.java)
             startActivity((intent)*/})
 
-        val ramos = AboutMe(R.drawable.ken_selfie,
-            "Kenneth Joshua Ramos",
-            "Goddess of Beauty",
-            { /*view ->
-            val intent = Intent(this, AboutKyraActivity::class.java)
-            startActivity((intent)*/})
+        val shikanokonoko = AboutMe(R.drawable.shikanoko,
+            "Angelo S. Domingo",
+            "Deer"
+        ) { view ->
+            val intent = Intent(this, AboutAngeloActivity::class.java)
+            startActivity(intent)
+        }
 
-
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos)
-
-
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, shikanokonoko)
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
     }
