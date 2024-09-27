@@ -16,6 +16,9 @@
             android:name=".AboutAngelActivity"
             android:exported="false" />
         <activity
+            android:name=".AboutIvyActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutJesterActivity"
             android:exported="false" />
         <activity
