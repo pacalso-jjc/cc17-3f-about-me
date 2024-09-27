@@ -156,10 +156,6 @@ class MainActivity : AppCompatActivity() {
             })
 
 
-        val narvarte = AboutMe(R.drawable.ap,
-            "Angel Pearl Narvarte",
-            "Slayed",
-            {/*TODO*/})
 
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
