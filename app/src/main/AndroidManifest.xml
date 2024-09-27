@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CC173FAboutMe"
         tools:targetApi="31">
         <activity
+            android:name=".AboutTrinaIlyza"
+            android:exported="false" />
+        <activity
             android:name=".AboutKennethActivity"
             android:exported="false" />
         <activity
