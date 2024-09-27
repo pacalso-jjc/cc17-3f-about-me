@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cc17_3f_aboutme.adapter.AboutMeAdapter
 import com.example.cc17_3f_aboutme.model.AboutMe
+import com.example.cc17_3f_aboutme.model.AboutPaulActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -59,7 +60,10 @@ class MainActivity : AppCompatActivity() {
         val paul = AboutMe(R.drawable.izme,
             "Paul Zadok Valera",
             "Painfully Average",
-            {/*TODO*/ })
+            { view ->
+                val intent = Intent(this, AboutPaulActivity::class.java)
+                startActivity(intent)
+            })
 
 
         val jLumague = AboutMe(R.drawable.nikka_dp,
@@ -152,7 +156,7 @@ class MainActivity : AppCompatActivity() {
             { /*TODO*/})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, paul)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
