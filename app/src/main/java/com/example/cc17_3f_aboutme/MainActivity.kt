@@ -145,6 +145,7 @@ class MainActivity : AppCompatActivity() {
             "Ivy Noreen Aquino",
             "Joyful",
             { /* TODO add onclicklistener when button is clicked */})
+
         val simonKao = AboutMe(R.drawable.kaokao,
             "Simon Adrian Aquino",
             "Pight Me Woman",
