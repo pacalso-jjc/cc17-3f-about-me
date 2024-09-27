@@ -108,10 +108,10 @@ class MainActivity : AppCompatActivity() {
         val payumo = AboutMe(R.drawable.kebin_dawk,
             "Kevin Payumo",
             "Autistic",
-            { /*view ->
+            { view ->
                 val intent = Intent(this, AboutKevinActivity::class.java)
                 startActivity(intent)
-            */} )
+            } )
 
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo)
