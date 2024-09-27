@@ -170,7 +170,7 @@ class MainActivity : AppCompatActivity() {
 
         val joseLeif = AboutMe(R.drawable.leif,
             "Jose Leif Hurei",
-            "Lep",
+            "Constipated",
             {/*TODO */})
 
 
