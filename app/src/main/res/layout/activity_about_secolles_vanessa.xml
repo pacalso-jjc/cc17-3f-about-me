@@ -25,6 +25,7 @@
             android:text="Vanessa Secolles"
             android:textSize="60sp"
             android:layout_gravity="center"
+            android:textAlignment="center"
             />
 
         <TextView
@@ -33,14 +34,16 @@
             android:text="Occasional Mermaid"
             android:textSize="40sp"
             android:layout_gravity="center"
+            android:textAlignment="center"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="I'm a passionate traveler who loves exploring the beauty of different islands. Whether it's diving into the crystal-clear waters of El Nido, marveling at the stunning landscapes of Coron, or surfing the waves in Siargao, I embrace every chance to connect with the ocean and its wonders. My adventures fuel my love for the sea, making me an occasional mermaid at heart."
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:layout_gravity="center"
+
             />
 
         <ImageView
