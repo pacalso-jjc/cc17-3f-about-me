@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
             startActivity((intent)*/})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, paul)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
