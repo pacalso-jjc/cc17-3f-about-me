@@ -137,8 +137,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AboutTrinaActivity::class.java)
             startActivity((intent)*/})
 
+        val franzCastro = AboutMe(R.drawable.castro__2_,
+            name = "Franz Dominic Castro",
+            desc = "Risk Taker",
+            { /*TODO add onClickListener when show more button is clicked*/})
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid)
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, franzCastro)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
