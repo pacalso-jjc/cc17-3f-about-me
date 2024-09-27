@@ -113,6 +113,16 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
+        val garduque = AboutMe(R.drawable.rib,
+            "Riv Andrei Garduque",
+            "REEEEEEEEEEEE",
+            { /* TODO add onClickListener when show more button is clicked */})
+
+        val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
+            "Aila Marie Nieva",
+            "Chill",
+            {/*TODO*/
+            })
 
 
 
@@ -133,6 +143,9 @@ class MainActivity : AppCompatActivity() {
             startActivity((intent)*/})
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, sobrepenatid)
+
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva)
 
 
 
