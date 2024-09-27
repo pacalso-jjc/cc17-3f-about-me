@@ -185,8 +185,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             } )
 
-
-
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
             desc = "Risk Taker",
@@ -194,8 +192,11 @@ class MainActivity : AppCompatActivity() {
 
         val simonKao = AboutMe(R.drawable.kaokao,
             "Simon Adrian Aquino",
-            "Pight Me Woman",
-            { /*TODO*/})
+            "Pight Me",
+            { view ->
+                val intent = Intent(this, AboutSimonAquinoActivity::class.java)
+                startActivity(intent)
+            })
 
         val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, ducusinTJ, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy, franzCastro, alvic, narvarte)
 
