@@ -122,7 +122,11 @@ class MainActivity : AppCompatActivity() {
         val narvarte = AboutMe(R.drawable.ap,
             "Angel Pearl Narvarte",
             "Slayed",
-            {/*TODO*/})
+            {view->
+                val intent = Intent(this, AboutAngelActivity::class.java)
+                startActivity(intent)
+            })
+
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
             "REEEEEEEEEEEE",
