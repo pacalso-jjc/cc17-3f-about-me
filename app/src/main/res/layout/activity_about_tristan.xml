@@ -17,6 +17,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tjd_profile" />
 
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="382dp"
+        android:layout_height="389dp"
+        android:layout_marginTop="64dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tjd_back"  />
+
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
@@ -33,13 +44,14 @@
         android:id="@+id/nameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
         android:text="~ Tristan Jan D. Ducusin ~"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profile" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
 
     <TextView
         android:id="@+id/descText"
@@ -50,5 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
