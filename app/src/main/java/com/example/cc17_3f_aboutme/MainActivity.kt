@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity() {
             { view ->
             val intent = Intent(this, AboutKennethActivity::class.java)
             startActivity(intent)})
-        
+
         val aquinoIvy = AboutMe(R.drawable.aquino_ivy_dp,
             "Ivy Noreen Aquino",
             "Joyful",
@@ -127,13 +127,13 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutIvyActivity::class.java)
                 startActivity(intent)
             })
-        
+
         val ducusinTJ = AboutMe(R.drawable.tjd_profile,
             "Tristan Jan Ducusin",
             "Lethological",
             {// In Progress
             })
-        
+
         val payumo = AboutMe(R.drawable.kebin_dawk,
             "Kevin Payumo",
             "Autistic",
@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
             "Angel Pearl Narvarte",
             "Slayed",
             {/*TODO*/})
-        
+
         val garduque = AboutMe(R.drawable.rib,
             "Riv Andrei Garduque",
             "REEEEEEEEEEEE",
@@ -154,6 +154,8 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutRivActivity::class.java)
                 startActivity(intent)
             })
+
+
 
 
         val ailaNieva = AboutMe(R.drawable.aila_nieva_dp,
@@ -176,6 +178,8 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, AboutJesterActivity::class.java)
                 startActivity(intent)
             } )
+
+
 
         val franzCastro = AboutMe(R.drawable.castro__2_,
             name = "Franz Dominic Castro",
