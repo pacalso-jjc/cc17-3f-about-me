@@ -90,7 +90,12 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles)
+        val ramos = AboutMe(R.drawable.ken_dp,
+            "Kenneth Joshua Ramos",
+            "Goddess of Beauty",
+            {/*TODO add onClickListener when show more button is clicked*/})
+
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, ramos)
 
 
 
