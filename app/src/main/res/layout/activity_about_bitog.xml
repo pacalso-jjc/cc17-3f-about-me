@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutBitogActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/bitog_dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rose Kyla Bitog"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Coz I am a patatas \n"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ang Patatas"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="by Emman Bernardino \n"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="
+                    \n
+                    \n Ang patatas
+                    \n Ay walang kakupas-kupas
+                    \n Masasabi ko 'to ng walang kahiya-hiya,
+                    \n Dahil maaari rin itong panggalingan ng enerhiya
+                    \n
+                    \n Kinakain ng walang-wala
+                    \n At itinuring na walang mapapala
+                    \n Sa buhay na punong-puno ng oportunidad
+                    \n Pero ito'y ginalaw ng abusador at ito'y binaliktad
+                    \n
+                    \n Ang patatas ay kayang gawing baterya
+                    \n Ayon sa agham at katotohanan
+                    \n At kapag pinagmasdan ay kaaya-aya
+                    \n At maaaring gawing simbolo ng kahirapan
+                    \n
+                    \n Ngunit hindi ko naman minamaliit ang mahihirap
+                    \n Dahil ayon nga sa agham ay ito'y isang enerhiya
+                    \n Di lamang para makapag-pagana ng teknolohiya
+                    \n Ngunit para harapin ang hinaharap"
+                    android:textSize="15sp" />
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

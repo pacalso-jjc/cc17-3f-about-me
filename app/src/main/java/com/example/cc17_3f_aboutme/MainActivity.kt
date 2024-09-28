@@ -134,6 +134,12 @@ class MainActivity : AppCompatActivity() {
             {/*TODO*/
             })
 
+        val bitog = AboutMe(R.drawable.bitog_dp,
+            "Rose Kyla Bitog",
+            "Patatas",
+            {view -> intent= Intent(this, AboutBitogActivity::class.java)
+            startActivity(intent)})
+
         val sobrepenatid = AboutMe(R.drawable.sobrepenatid,
             "Trina Ilyza Sobrepeña",
             "Hot Dancer",
@@ -152,7 +158,7 @@ class MainActivity : AppCompatActivity() {
             { /*TODO*/})
 
 
-        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, sobrepenatid, simonKao, aquinoIvy)
+        val arrList = listOf(aboutMe1, aboutMe2, johnSmith, isaac, jLumague, siachongco, jBravo, secolles, PastorKJ, ramos, payumo, garduque, ailaNieva, bitog, sobrepenatid, simonKao, aquinoIvy)
 
 
         rvAboutMe.adapter = AboutMeAdapter(arrList)
