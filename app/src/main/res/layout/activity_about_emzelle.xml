@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Emzelle Xylle Awal"
+                android:textSize="34sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello I am Emzelle Xylle D. Awal. I live in Baguio City and I like Video Games and all that geeky stuff"
+                android:textSize="24sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="467dp"
+                android:layout_gravity="center"
+                android:src="@drawable/aboutme"
+                app:srcCompat="@drawable/aboutme" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
